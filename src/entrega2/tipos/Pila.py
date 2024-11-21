@@ -10,7 +10,7 @@ from entrega2.tipos.Agregado_lineal import Agregado_Lineal
 
 E=TypeVar('E')
 
-class Pila(Agregado_Lineal, Generic[E]):
+class Pila(Agregado_Lineal[E], Generic[E]):
 
     @staticmethod
     def of()->Pila[E]:

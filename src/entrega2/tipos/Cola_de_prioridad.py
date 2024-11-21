@@ -58,11 +58,4 @@ class ColaDePrioridad(Generic[E,P]):
         return f"ColaDePrioridad([{', '.join(map(str, zip(self.__elements, self.__priorities)))}])" 
 
 if __name__ == '__main__':
-    Cola=ColaDePrioridad()
-    Cola.add("Paciente A",2)
-    Cola.add("Paciente B",2)
-    Cola.add("Paciente C",1)
-    Cola.add("Paciente D",3)
-    Cola.add("Paciente E",1)
-    Cola.decrease_priority("Paciente A", 3)
-    print(Cola)
+    pass

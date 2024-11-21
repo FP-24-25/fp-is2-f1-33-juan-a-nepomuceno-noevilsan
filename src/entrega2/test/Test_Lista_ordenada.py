@@ -30,3 +30,12 @@ if __name__ == '__main__':
     lista.add(7)
     print(f"Lista después de añadirle el 7: {lista}")
     
+    #### A partir de aquí empiezan los test del examen
+    
+    print(lista)
+    print(lista.contains(0)) 
+    print(lista.find(lambda x:x>1)) 
+    print(lista.find(lambda x:x<0)) # Como ninguno cumple, devuelve None
+    print(lista.filter(lambda x:x>1))
+    print(lista.filter(lambda x:x<0)) # Como ninguno cumple, devuelve una lista vacía
+    
